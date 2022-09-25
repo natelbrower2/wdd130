@@ -1,0 +1,20 @@
+
+h1 {
+            color: red;
+            
+        }
+        .fancyHeader {
+            background-color: blue;
+            font-size: 150px;
+            text-align: center;
+            padding: 20px;
+            margin-top: 200px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        button {
+            margin-top: 10px
+        }
