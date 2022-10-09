@@ -20,7 +20,7 @@ Fonts are separated by a & */
   --headline-color-on-color: #9a673c; /* headlines on a colored background */ 
   --paragraph-color-on-white: #9a673c; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #40291f  ;
+  --paragraph-background-color: #40291f;
   --nav-link-color: #40291f;
   --nav-background-color: #ab6224;
   --nav-hover-link-color: #ab6224;
