@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #40291f   ;
+    --secondary-color: #ab6224 ;
+    --accent1-color: #9a673c;
+    --accent2-color: #886b54;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Bebas Neue", Helvetica, sans-serif;
+    --paragraph-font: "Inter Tight", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #40291f;  /* headlines on a white background */ 
+    --headline-color-on-color: #9a673c; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #9a673c; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #40291f;
+    --nav-link-color: #40291f;
+    --nav-background-color: #ab6224;
+    --nav-hover-link-color: #ab6224;
+    --nav-hover-background-color: #40291f;
+  }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,21 +30,26 @@
 
 nav a {
     text-align: center;
-    background-color: #40291f;
+    /* background-color: #40291f; */
     color: #ab6224;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 .button-box{
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 main section{
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 #background {
@@ -28,6 +58,8 @@ main section{
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -40,13 +72,18 @@ nav a:hover{
 }
 
 .book, .join{
-    background-color: #40291f;
-    color: #ab6224;
+    background-color: #ab6224;
+    color: #40291f;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-    background-color: #ab6224;
+    background-color: #9a673c;
     color: #40291f;
 }
 
@@ -56,37 +93,51 @@ nav a:hover{
 
 .msg{
     background-color: #40291f;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #40291f;
     color: #ab6224;
+    font-family: var(--paragraph-font);
+    padding: 25px 50px;
+    margin-top: 200px
 }
 
 .home-title {
-    background-color: #40291f;
+    /* background-color: #40291f; */
     color: #ab6224;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
-    background-color: #40291f;
+    /* background-color: #40291f; */
     color: #ab6224;
+    font-family: var(--paragraph-font);
 }
 
 .msg h2{
     background-color: #40291f;
     color: #ab6224;
+    font-family: var(--heading-font);
 }
 
 .msg P{
     background-color: #40291f;
     color: #ab6224;
+    font-family: var(--paragraph-font);
+    font-size: .8em;
+    padding: 15px;
 }
 
 footer a{
     background-color: #40291f;
     color: #ab6224;
     text-decoration: none;
+    font-family: var(--paragraph-font);
 }
 
 footer a:hover{
@@ -96,12 +147,34 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding: 10px;
 }
 
 footer p {
     font-size: 1.2em;
+    text-decoration: underline;
 }
 
-footer p {
-    text-decoration: underline;
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #ab6224;
+}
+
+main section img {
+    box-sizing: border-box;
 }
