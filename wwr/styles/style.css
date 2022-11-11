@@ -131,6 +131,14 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.rivers-paragraph {
+    line-height: 1.5em;
+    padding: 35px;
+    /* grid-column: 6/10;
+    grid-row: 6/7; */
+    /* box-shadow: 5px 5px 10px #6f7364; */
+}
+
 footer{
     background-color: #40291f;
     color: #ab6224;
@@ -148,6 +156,12 @@ footer{
     font-family: var(--heading-font);
     font-size: 2em;
     margin-top: 10px;
+}
+.rivers-title {
+    color: #ab6224;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px; 
 }
 
 h4 {
@@ -233,6 +247,7 @@ footer .social img {
     border: 10px solid #ab6224;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 300px;
 }
 .card-img:hover {
     opacity: .6;
@@ -257,6 +272,11 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
+}
+
+.rivers-img{
+    /* box-shadow: 5px 5px 10px #6f7364; */
+    border-radius: 5%;
 }
 
 @media screen and (max-width: 900px) {
